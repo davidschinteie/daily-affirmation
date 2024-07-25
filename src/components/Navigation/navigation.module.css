@@ -1,0 +1,126 @@
+/* Navigation */
+.nav {
+  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background-color: rgb(255 255 255);
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.flexWrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.linksWrapper {
+  display: flex;
+  color: rgb(243 244 246);
+  gap: 0.85rem;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+}
+
+.textLink {
+  color: rgb(17 24 39);
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  padding: 0.25rem 0.25rem 0;
+  border-bottom: 2px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+}
+
+.textLink:hover {
+  color: #882cff;
+  border-color: #e752ff;
+}
+
+.active {
+  color: #882cff;
+  border-color: #e752ff;
+}
+
+.active:hover {
+  color: #e752ff;
+  border-color: #ff9e01;
+}
+
+/* button for sign in */
+
+.buttonWrapper {
+  display: none;
+}
+
+.buttonDropdown {
+  width: 8rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 9;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  top: 50%;
+  right: 0;
+  display: block;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.buttonDropdown a {
+  padding: 0.25rem;
+  width: 100%;
+  display: block;
+  border-bottom: none;
+  text-align: center;
+}
+
+.buttonDropdown a:hover {
+  background-color: #f3f4f6;
+}
+
+.button {
+  display: flex;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+}
+
+.button img,
+.button svg {
+  width: 2rem;
+  height: 2rem;
+  background: radial-gradient(#882cff 0%, #e752ff 50%, #ff9e01 100%);
+  border-radius: 50%;
+}
+.button svg {
+  padding: 0.35rem;
+  fill: #f3f4f6;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover svg {
+  fill: #ff9e01;
+}
+
+@media (min-width: 640px) {
+  .buttonWrapper {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    position: relative;
+  }
+}

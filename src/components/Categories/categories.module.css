@@ -1,0 +1,6 @@
+.categoriesBox {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
