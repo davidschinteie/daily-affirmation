@@ -37,11 +37,11 @@ Run the Application
 npm run dev
 ```
 
-Set Up Your OpenAI API Key
+Set Up Your OpenAI API Key:
 
-Create a `.env.local` file in your project root.
-
-Add your OpenAI API key in the following format:
+- You can sign up for an account and generate an API key from the [OpenAI website](https://platform.openai.com/account/api-keys).
+- Create a `.env.local` file in your project root.
+- Add your OpenAI API key in the following format:
 
 ```makefile
 API_KEY_OPENAI=your_api_key_here
