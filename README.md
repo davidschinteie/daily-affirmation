@@ -47,6 +47,12 @@ Add your OpenAI API key in the following format:
 API_KEY_OPENAI=your_api_key_here
 ```
 
+## Demo 🎉
+
+Check out the live demo of the Daily Affirmation App [here](https://daily-affirmation.vercel.app/).
+
+Please note that for demonstration purposes, the demo provides mock responses and not OpenAI-generated ones.
+
 ## What can users do with it? 🌟
 
 Users can:
