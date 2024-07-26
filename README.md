@@ -21,7 +21,7 @@ Follow these steps to get the project up and running locally:
 Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/daily-affirmation-app.git
+git clone https://github.com/davidschinteie/daily-affirmation.git
 cd daily-affirmation-app
 ```
 
